@@ -2,7 +2,7 @@
 
 require '../bootstrap.php';    
 
-use Entity\User;
+use Entity\User;    
 
 if (isset($_POST['register'])) {
     $user = new User();
